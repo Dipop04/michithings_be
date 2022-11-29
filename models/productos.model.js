@@ -16,7 +16,7 @@ const ProductosSchema = new Schema({
     etapa_vida:{type:String, required:false, max:100},
     tipo_producto:{type:String, required:false, max:100},
     marca:{type:String, required:false, max:100},
-    peso:{type:Number, required:true, max:5000},
+    peso:{type:Number, required:false, max:5000},
     beneficios:{type:String, required:false, max:500},
     caracteristicas:{type:String, required:false, max:500}
 });
